@@ -19,4 +19,5 @@ while True:
         features[f] = int(feature_) if (f == 'price' or f == 'quantity') else feature_
         analytics[f].append(features[f])
     goods.append((num, features))
+    
 
